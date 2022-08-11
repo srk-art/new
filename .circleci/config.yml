@@ -11,7 +11,7 @@ jobs:
       - checkout
       - aws-s3/sync:
           from: .
-          to: 's3://srkbucket1245'
+          to: 's3://srkbucket90'
           arguments: |
             --acl public-read \
             --cache-control "max-age=86400" \
